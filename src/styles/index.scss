@@ -1,0 +1,29 @@
+@import './variables';
+@import './mixins';
+@import './fonts';
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'DIN2014', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 14px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
